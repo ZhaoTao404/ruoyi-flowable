@@ -7,9 +7,9 @@ spring:
         druid:
             # 主库数据源
             master:
-                url: jdbc:mysql://124.223.1.72:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
-                username: zt
-                password: 123456
+                url: jdbc:mysql://10.18.108.66:3306/ry-flowable?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
+                username: root
+                password: root
             # 从库数据源
             slave:
                 # 从数据源开关/默认关闭
